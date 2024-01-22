@@ -1,0 +1,71 @@
+<style>
+body {
+	background: url(FN0143H.jpg);
+}
+a:link {
+color: rgb(255,255,255);
+}
+a:visited {
+color: rgb(255,255,255);
+}
+a:hover {
+color: #ff3300;
+}
+blog{
+	position: static;
+	top:150;
+//	margin-top: 100px;
+//	    margin-bottom: 100px;
+	float: center;
+	display: block;
+	width:50%;
+	height:auto;
+	background-color: rgba(5,5,5,0.8);
+	border: 5px solid black;
+	padding: 50px;
+	font-size: 16px;
+	color: rgb(255,255,255);
+	text-align: left;
+	line-height:1.2;
+}
+
+  banner {
+	  position: static;
+//	  margin-top: 100px;
+//	      margin-bottom: 100px;
+	  float:right;
+    display: block;
+	width:100%;
+	height:auto;
+    background-color: rgba(50,50,50,0.65);
+    padding: 50px;
+    font-size: 50px;
+	color: rgb(200,200,200);
+	text-align: center;
+  }
+
+img{
+  float: center;
+	    width: 380px;
+//    height: 300px;
+    margin: 5px;
+	border: 5px solid black ;}
+
+figure{
+
+	float:left;
+	width: 400px;
+
+
+}
+figcaption{
+	background-color: rgba(0,0,0,0.8);
+    margin: 5px;
+	border: 5px solid black ;
+	font-size: 14px;
+	text-align: left;
+	line-height:2;
+	color: rgb(250,250,250);
+}
+
+</style>

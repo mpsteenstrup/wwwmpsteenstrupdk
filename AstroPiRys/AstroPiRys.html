@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <title>AstroPiRys</title>
+
+
+ <link rel="stylesheet" type="text/css" href="../stilen.css">
+<style>
+ blog{
+ 	display: block;
+ 	width:600px;
+ 	background-color: rgba(5,5,5,0.8);
+ 	border: 5px solid black;
+ 	padding: 50px;
+ 	font-size: 16px;
+ 	color: rgb(255,255,255);
+ 	text-align: left;
+ 	line-height:1.2;
+ }
+ a:link {
+  color: pink;
+	font-weight: bold;
+}
+a:visited{
+	color: pink;
+}
+</style>
+</head>
+
+<body>
+
+<banner>
+Data fra fysiklokalet, Rysensteen Gymnasium 2018.
+</banner>
+
+<h1><hr>  </h1>
+
+ <blog>
+<h1> AstroPi </h1>
+En AstroPi er en lille computer, en raspberry pi, som fylder det samme som et spil kort. Computeren kan udbygges med sensorer og display.
+</br></br>
+Udover at kunne måle temperatur, tryk, acceleration mm. Har AstroPi også et kamera. Den ene enhed er placeret så kameraet vender ind i rumstationen, mens det andet ser ud gennem et vindue, ned på Jorden.
+</br></br>
+Det europæiske rumagentur, ESA, har sendt to AstroPi op til den Internationale rumstation, ISS, så det er muligt for elver at lave forsøg i rummet. ESA afholder en årlig konkurrence hvor europæiske elever konkurrer om få deres kode i rummet. Danmark her haft mange deltagende hold og flere har fået deres kode i rummet.
+</br></br>
+Projektet indeholder fire faser.
+<ul>
+<li> Ide som leder frem til en kort forsøgsbeskrivelse. </li>
+<li> Udvikling hvor eleverne designer forsøget og programmere en AstroPi på jorden.</li>
+<li> Programmet kører på rumstationen i 3 timer, hvilket giver to omløb om Jorden.</li>
+<li> Data fra ISS kan behandles på Jorden og rapportskrivning.</li>
+</ul>
+Det er relativt let at komme gennem første fase hvor ESA er rimeligt large med hvem de lader gå videre til udviklingfasen. Udviklingsfasen kræver en del arbejde fra eleverne med gennemtænkning af forsøget og selve programmeringen. Da kravet er at programmet faktisk virker selvstændigt kan det være en god ide at tænke i simple løsninger.
+</br></br>
+Projektets hjemmeside kan findes her:<a href=https://astro-pi.org/missions/space-lab/>ASTRO-PI.ORG</a>
+</br></br>
+<h1>AstroPiRys</h1>
+For at forberede os på missionen har vi en AstroPi siddende i fysiklokalet. De data den måler bliver sendt til Thingspeak og I kan se dem nedenfor.  Hvis I vil gemme data kan i gøre det her, <a href=https://thingspeak.com/channels/562954> Thingspeak.com </a>.
+<h1> Kodning</h1>
+For at få ArtroPi'en til at samarbejde skal man kode den. Koden til målingerne og upload til thinspeak er her, <a href='dataThingspeak.py'> dataThingspeak.py </a>.
+
+<h1>#AstroPiRys</h1>
+Vores AstroPi i fysiklokalet er på twitter, eller lytter til #AstroPiRys. Man kan skrive beskeder til den, helst uden æ,ø,å. Koden til twitter er her <a href='AstroPiRys.py'> #AstriPyRys </a>.
+ </blog>
+
+<h1><hr>  </h1>
+
+ <figure>
+	<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/562954/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+ </figure>
+
+ <figure>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/562954/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+ </figure>
+
+ <figure>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/562954/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+ </figure>
+
+<figure>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/562954/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&yaxis=acceleration"></iframe>
+ </figure>
+
+ <figure>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/562954/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&yaxis=magnetic+field+x"></iframe>
+ </figure>
+
+ <figure>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/562954/charts/6?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&yaxis=magnetic+field+y"></iframe>
+ </figure>
+
+ <figure>
+<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/562954/charts/7?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+ </figure>
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+</body>
+</html>

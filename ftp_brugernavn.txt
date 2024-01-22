@@ -1,0 +1,8 @@
+- Mail-server: mail.mpsteenstrup.dk 
+- Alias: mpsteenstrup-dk.temp11.domaindirect.dk 
+- IP: 77.66.85.135 
+FTP-oplysninger 
+- FTP-server: ftp.mpsteenstrup.dk 
+- Webroot:/var/www/vhosts/mpsteenstrup.dk/httpdocs
+- FTP-brugernavn:u16316
+ - FTP-kode:

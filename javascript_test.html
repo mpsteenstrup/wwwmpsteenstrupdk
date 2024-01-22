@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First JavaScript</h1>
+
+<button type="button"
+onclick="document.getElementById('test').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="test"></p>
+
+
+<button type="button"
+onclick="document.getElementById('calculate').innerHTML = window.alert(6+5)">
+Click to calculate</button>
+
+<button onclick="document.write(51241 + 6)">Try it</button>
+
+
+<p id="demo"></p>
+
+<script>
+var z = 3*3938736;
+document.getElementById("demo").innerHTML = z;
+</script>
+
+<canvas id="myCanvas" width="600" height="600" style="border:1px solid #110000;backgroundColor = "red"">
+</canvas>
+
+<script>
+
+var c = document.getElementById("myCanvas");
+
+var ctx=c.getContext("2d");
+ctx.beginPath();
+ctx.arc(200,200,100,0,2*Math.PI,false);
+ctx.fillStyle = "rgb(2,5,10)";
+ctx.strokeStyle = 'red';
+ctx.lineWidth=5;
+ctx.opacity=0.2;
+ctx.fill();
+ctx.stroke();
+</script>
+
+
+</body>
+</html>

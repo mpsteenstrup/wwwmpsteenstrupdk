@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="1000" height="500"></canvas>
+    <script>
+      var canvas = 
+document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+      var x = canvas.width / 2;
+      var y = canvas.height / 2;
+      var radius = 150;
+      var startAngle = 0.5* Math.PI;
+      var endAngle = 1.5 * Math.PI;
+      var counterClockwise = true;
+
+      context.beginPath();
+var i =0;
+while i<10{
+      context.arc(x, y, radius, startAngle, endAngle, counterClockwise);
+}
+i=i+1;
+      context.lineWidth = 5;
+
+      // line color
+      context.strokeStyle = 'black';
+      context.stroke();
+    </script>
+  </body>
+</html>
