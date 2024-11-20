@@ -26,8 +26,12 @@ figure{
 figcaption{
 	background-color: rgba(0,0,0,0.8);
 	font-size: 24px;
+	margin: 5px;
+	padding: 5px;
+	padding-top: 12px;
 	text-align: center;
+	align-items: center;
 	color: rgb(250,250,250);
-	width: 220px;
+	width: 200px;
 	height: 120px;
 }
